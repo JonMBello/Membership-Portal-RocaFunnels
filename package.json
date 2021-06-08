@@ -1,0 +1,18 @@
+{
+  "name": "membership-portal",
+  "version": "0.1.0",
+  "description": "Sección de membresía del portal RocaFunnels",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "test": "mocha"
+  },
+  "author": "Jonathan Martínez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
