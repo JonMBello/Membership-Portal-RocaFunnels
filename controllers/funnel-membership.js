@@ -20,7 +20,7 @@ let creaFunnel = (req, res, next) => {
     //Verificar que los datos tengan el formato necesario
     //Crear Funnel
     //Regresar Funnel o error
-    res.status(200).json({
+    res.status(201).json({
         msg : "Post, Crear Funnel",
         funnel : body
     });
