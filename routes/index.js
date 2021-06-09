@@ -5,5 +5,6 @@ router.get('/', (req, res, next)=>{
 });
 
 router.use('/funnel-membership', require('./funnel-membership'));
+router.use('/pagina-membership', require('./pagina-membership'));
 
 module.exports = router;

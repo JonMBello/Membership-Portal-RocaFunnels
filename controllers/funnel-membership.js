@@ -23,6 +23,7 @@ let modificarFunnel = (req, res, next) => {
     });
 }
 
+//Eliminación lógica
 let eliminarFunnel = (req, res, next) => {
     let id = req.params.id;
     res.status(200).send(`Delete, Eliminar Funnel ${id}`);
