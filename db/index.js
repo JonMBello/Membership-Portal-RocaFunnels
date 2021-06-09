@@ -1,8 +1,6 @@
 const { Sequelize } = require('sequelize');
 
-//TODO
-//Cambiar los parámetros de la BD
-const db = new Sequelize('afiliados-db', 'root', 'Roca*21£', {
+const db = new Sequelize('membership-portal-db', 'root', 'Roca*21£', {
     host: 'localhost',
     dialect: 'mysql',
     //logging: false
